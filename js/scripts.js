@@ -74,6 +74,8 @@ $(document).ready(function(){
 
     var userEI = [user1, user8, user15, user22, user29, user36, user43, user50, user57, user64];
 
+
+
     var userSN = [user2, user3, user9, user10, user16, user17, user23, user24, user30, user31, user37, user38, user44, user45, user51, user52, user58, user59, user65, user66];
 
     var userTF = [user4, user5, user11, user12, user18, user19, user25, user26, user32, user33, user39, user40, user46, user47, user53, user54, user60, user61, user67, user68];
@@ -85,6 +87,12 @@ $(document).ready(function(){
     console.log(userTF);
     console.log(userJP);
 
+    userEI.forEach(function(answer) {
+      var userInput = $("input." + blank).val();
+      console.log(userInput);
+      $("." + blank).text(userInput).val();
+    });
+
   });
-  
+
 });

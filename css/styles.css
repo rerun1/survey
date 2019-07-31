@@ -446,3 +446,10 @@ h2 {
 button {
   margin: 1em 0 1em 0;
 }
+.numbers {
+  font-size: .85em;
+  color: rgba(0, 0, 0, 0.25);
+}
+.form-check-inline {
+  margin: 0 0 0 1.5rem;
+}
